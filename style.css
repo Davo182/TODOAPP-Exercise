@@ -1,0 +1,36 @@
+.container-fluid {
+    max-width: 1200px;
+    height: 100vh;
+}
+
+.todo-container {
+    width: 70%;
+    min-height: 300px;
+}
+
+.todo-container-header {
+    background: linear-gradient(144deg, rgb(42, 145, 255) 0%, rgb(104, 164, 255) 100%);
+}
+
+.todo {
+    border-left: 5px solid rgb(42, 145, 255);
+}
+
+.todo-text {
+    font-size: 1.2em;
+}
+
+#todo-input {
+    background-color: rgba(104, 255, 245, 0);
+    border: 0;
+    border-bottom: 1px solid white;
+    color: white;
+}
+#todo-input:focus, #todo-input:focus {
+    outline:  0;
+}
+
+input[type=checkbox] {
+    width: 25px;
+    height: 25px;
+}
